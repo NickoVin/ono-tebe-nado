@@ -11,24 +11,35 @@
   </head>
   <body>
     <header class="header">
-        <nav>
-          <ul class="menu">
-            <li class="menu_item"><a href="">главная</a></li>
-            <li class="menu_item"><a href="">посмотреть лоты</a></li>
-            <li class="menu_item"><a href="">об аукционе</a></li>
+        <nav class="header_menu">
+          <ul class="header__links-list">
+            <li class="header__links-list-item"><a href="">главная</a></li>
+            <li class="header__links-list-item"><a href="">посмотреть лоты</a></li>
+            <li class="header__links-list-item"><a href="">об аукционе</a></li>
           </ul>
         </nav>
-        <img src="./images/logo-black.svg" alt="Логотип чёрный" class="logo-black">
-        <ul class="contacts">
-          <li class="contacts_item"><a href="tel:+9 999 555 5555">+9 999 555 5555</a></li>
-          <li class="contacts_item"><a href="mailto: info@sobaka.ge">info@sobaka.ge</a></li>
-          <li class="contacts_item">наб. Принсенграхт 263-265,</li>
-          <li class="contacts_item">Амстердам</li>
+        <img src="./images/logo-black.svg" alt="Логотип ОНО ТЕБЕ НАДО чёрный" class="header__logo">
+        <ul class="address__list">
+          <li class="address__list-item"><a href="tel:+9 999 555 5555">+9 999 555 5555</a></li>
+          <li class="address__list-item"><a href="mailto: info@sobaka.ge">info@sobaka.ge</a></li>
+          <li class="address__list-item">наб. Принсенграхт 263-265,</li>
+          <li class="address__list-item">Амстердам</li>
         </ul>
     </header>
-    <div class="content">
+    <main class="main">
       <section class="cover">
-
+        <div class="overlay"></div>
+        <h1 class="cover__title">
+          <span class="aligned-text">
+            ОН <span class="letter-spacing-extended">О</span>
+          </span>
+          <span class="aligned-text_center">
+            ТЕБ <span class="letter-spacing-extended">Е</span>
+          </span>
+          <span class="aligned-text_right">
+            <span class="letter-spacing-extended">Н</span> АДО
+          </span>
+        </h1>
       </section>
       <section class="lots">
   
@@ -36,7 +47,7 @@
       <section class="about">
   
       </section>
-    </div>
+    </main>
     <footer class="footer">
 
     </footer>
