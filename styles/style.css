@@ -53,6 +53,7 @@
   background-size: cover;
   position: relative;
   padding-top: 1px;
+  z-index: 1;
 }
 
 .overlay {
@@ -60,6 +61,7 @@
   height: 100%;
   background-color: rgb(0 0 0 / 0.6);
   position: absolute;
+  z-index: -1;
 }
 
 .cover__title {
@@ -74,10 +76,8 @@
 }
 
 .aligned-text {
-  display: block;
   align-self: start;
   line-height: 1.14;
-  letter-spacing: 30px;
 }
 
 .letter-spacing-extended {
@@ -85,7 +85,6 @@
 }
 
 .aligned-text_center {
-  display: block;
   align-self: center;
   line-height: 1;
   margin-left: 18px;
@@ -96,7 +95,6 @@
 }
 
 .aligned-text_right {
-  display: block;
   align-self: end;
   line-height: 1;
   margin-right: -30px;
