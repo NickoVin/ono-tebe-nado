@@ -1,4 +1,8 @@
-/* место для вашего кода */
+body {
+	max-width: 1440px;
+	margin: auto;
+	font-weight: 400;
+}
 
 .header {
   display: grid;
