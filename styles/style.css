@@ -49,7 +49,7 @@
   max-width: 1440px;
   min-height: 756px;
   margin: auto;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-position-y: -17px;
   background-size: cover;
   position: relative;
@@ -59,7 +59,7 @@
 
 .overlay {
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   background-color: rgb(0 0 0 / 0.6);
   position: absolute;
   z-index: -1;
@@ -162,7 +162,7 @@
 
 .card-link {
   display: block;
-  min-height: 100%;
+  height: 100%;
   text-decoration: none;
   color: white;
 }
@@ -185,15 +185,15 @@
 }
 
 .card_type_film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card__title {
@@ -234,7 +234,7 @@
 
 .about__logo {
   width: 240px;
-  min-height: 240px;
+  height: 240px;
   border-radius: 50%;
   background-color: #000;
   display: flex;
@@ -245,7 +245,7 @@
 
 .about__logo-image {
   width: 148px;
-  min-height: 114px;
+  height: 114px;
 }
 
 .about__title {
